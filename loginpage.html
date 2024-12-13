@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+body{
+background-image:url("blue.jpg");
+background-repeat:no-repeat;
+items-align:center;
+}
+form{
+width:400px;
+height:200px;
+background-image:url("blue1.jpg");
+items-align:center;
+margin-top:150px;
+margin-left:350px;
+color:white;
+}
+button[type='submit']:hover
+{
+background-color:black;
+color:white;
+}
+input[type='password']:hover{
+background-color:black;
+border-color:red;
+}
+input[type='text']:hover{
+background-color:black;
+border-color:red;
+}
+</style>
+</head>
+<body>
+<form>
+<div class="container">
+<center>
+<h2 center>Login form</h2>
+<label for='username' id='name'>UserName</label>
+<input type='text' placeholder='enter user id'>
+<br>
+<br>
+<label for='phoneno' id='number'>PhoneNo</label>
+<td>
+<input type='text' value='+91' size='1' readonly>
+</td>
+<td>
+<input type='text' maxlength='10' id='pn' pattern=[0-9]>
+</td>
+<br>
+<br>
+<label for='password' id='pass'>Password</label>
+<input type='password' placeholder='enter password'>
+<br>
+<br>
+</div>
+</center>
+<center>
+<button type='submit'>Submit</button>
+</center>
+</form>
+
+
+
+</body>
+
+</html>
